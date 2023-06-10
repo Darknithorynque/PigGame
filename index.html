@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pigGame.css">
+    <title>Pig Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mainSection">
+            <div id="player-one" class="players borderOne">
+                <div class="player">
+                    <p>PLAYER 1</p>
+                    <p id="upScoreOne" class="playerScore">0</p>
+                </div>
+                <div class="current">
+                    <p>Current</p>
+                    <p id="currentScorePlayerOne" class="currentScore">0</p>
+                </div>
+            </div>
+            <div class="newGame">
+                 ▶︎ New Game
+            </div>
+            <div class="square">
+                <img id="img_box" src="" alt="" srcset="">
+            </div>
+            <div class="rollDice">
+                🎲 Roll Dice
+            </div>
+            <div class="hold">
+                📩 Hold
+            </div>
+
+            <div id="player-two" class="players borderTwo">
+                <div class="player">
+                    <p>PLAYER 2</p>
+                    <p id="upScoreTwo" class="playerScore">0</p>
+                </div>
+                <div class="current">
+                    <p>Current</p>
+                    <p id="currentScorePlayerTwo" class="currentScore">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="pigGame.js"></script>
+</body>
+</html>
