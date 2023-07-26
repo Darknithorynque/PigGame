@@ -6,8 +6,7 @@
 }
 
 html, body {
-   /* background-color: rgb(239, 62, 92); */
-   background-color: aqua;
+    background-color: rgb(239, 62, 92); 
 }
 
 .mainSection {
@@ -141,4 +140,28 @@ html, body {
 .currentScore {
     font-size: 30px !important;
     margin-top: -17px;
+}
+
+@media (max-width: 415px) {
+
+    .current {
+    text-align: center;
+    top: 30%;
+    position: relative;
+    width: 120px;
+    height: 90px;
+    border-radius: 6px;
+    background-color: rgb(239, 62, 92);
+    display: table;
+    }
+
+    .current-left {
+        position: relative;
+        left: 4.5rem;
+    }
+
+    .current-right {
+        position: relative;
+        left: 4px;
+    }
 }
